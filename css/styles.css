@@ -45,7 +45,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #ddd;
   font-size: 0.7rem;
   letter-spacing: 1px;
   padding: 25px;
@@ -99,7 +99,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #1c547a;
     text-decoration: none;
 }
 
@@ -123,10 +123,11 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   height: auto;
-  background-color: #3397DB;
+  background-color: #2878af;
 }
 .filter-options h2 {
   color: white;
@@ -154,9 +155,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 @media screen and (min-width: 290px) {
-  .filter-options {
-    height: 50px;
-  }
   .filter-options .filter-selects {
     flex-direction: row;
   }
@@ -167,7 +165,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     align-items: center;
   }
   .filter-options .filter-selects {
-    min-width: 768px;
+    width: 768px;
   }
 }
 /* ====================== Restaurant Listing ====================== */
@@ -199,8 +197,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding-top: 20px;
   background-color: #fff;
 }
-#restaurants-list li h1 {
-  color: #f18200;
+#restaurants-list li h2 {
+  color: #a96311;
   font-family: Arial,sans-serif;
   font-size: 1.2rem;
   font-weight: 200;
@@ -216,7 +214,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #restaurants-list li a {
   background-color: orange;
   border-bottom: 3px solid #eee;
-  color: #fff;
+  color: #000;
   display: inline-block;
   font-size: 0.8rem;
   margin: 15px 0 0;
@@ -231,7 +229,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     font-size: 1.2rem;
   }
   #restaurants-list li a {
-    font-size: 1rem;ase;
+    font-size: 1rem;
   }
 }
 
@@ -302,7 +300,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 #restaurant-name {
-  color: #f18200;
+  color: #a96311;
   font-family: Arial,sans-serif;
   font-size: 1.8rem;
   font-weight: 200;
@@ -340,7 +338,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 #reviews-container h2 {
-  color: #f58500;
+  color: #a96311;
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: -1px;
@@ -414,3 +412,4 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   #restaurant-cuisine {
     font-size: 1.3rem;
   }
+}

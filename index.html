@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
@@ -12,21 +12,21 @@
   <header>
     <div class="main-title">
       <h1><a href="/">Restaurant Reviews</a></h1>
-    </div class="main-title">
+    </div>
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <aside id="map-container" aria-hidden="true">
       <div id="map"></div>
-    </section>
+    </aside>
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
         <div class="filter-selects">
-          <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+          <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-label="select neighborhoods">
             <option value="all">All Neighborhoods</option>
           </select>
-          <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+          <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="select cuisines">
             <option value="all">All Cuisines</option>
           </select>
         </div>
