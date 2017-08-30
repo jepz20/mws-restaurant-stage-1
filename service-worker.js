@@ -1,4 +1,4 @@
-var CACHE_NAME = 'restaurant-reviewer-v8';
+var CACHE_NAME = 'restaurant-reviewer-v11';
 var urlsToCache = [
   '/',
   '/css/styles.css',

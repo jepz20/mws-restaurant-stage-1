@@ -211,7 +211,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   margin: 0;
   font-size: 1rem;
 }
-#restaurants-list li a {
+#restaurants-list .view-more {
   background-color: orange;
   border-bottom: 3px solid #eee;
   color: #000;
@@ -228,7 +228,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   #restaurants-list p {
     font-size: 1.2rem;
   }
-  #restaurants-list li a {
+  #restaurants-list .view-more {
     font-size: 1rem;
   }
 }
